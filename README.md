@@ -1,5 +1,10 @@
 <div id="top"></div>
 
+<hr>
+<p><b>This is a fork of <a href="https://github.com/pinneyja/self-interpreter">
+Jacob Pinney et al's Self Interpreter in Python</a> made for personal experimenting, so this repo may be broken, work differently, explode randomly etc.</b></p>
+<hr>
+
 <br />
 <div align="center">
     <img src="https://selflanguage.org/img/self-logo.png" alt="Logo" width="200" height="80">
