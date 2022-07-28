@@ -120,3 +120,6 @@ parsetab.py
 
 #config file
 PersonalConfig.py
+
+#PyCharm
+.idea
