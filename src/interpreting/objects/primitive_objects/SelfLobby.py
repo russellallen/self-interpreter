@@ -1,14 +1,8 @@
 from interpreting.objects.SelfObject import SelfObject
 from interpreting.objects.SelfSlot import SelfSlot
-from interpreting.objects.gui_objects.SelfScrollableContainer import SelfScrollableContainer
-from interpreting.objects.gui_objects.SelfTextInput import SelfTextInput
-from interpreting.objects.gui_objects.SelfButton import SelfButton
-from interpreting.objects.gui_objects.SelfLabel import SelfLabel
 from interpreting.objects.primitive_objects.SelfByteVector import SelfByteVector
 from interpreting.objects.primitive_objects.SelfObjectVector import SelfObjectVector
 from interpreting.objects.primitive_objects.SelfString import SelfString
-from interpreting.objects.gui_objects.SelfCanvas import SelfCanvas
-from interpreting.objects.gui_objects.SelfContainer import SelfContainer
 
 class SelfLobby(SelfObject):
 	lobby = None
@@ -28,13 +22,7 @@ class SelfLobby(SelfObject):
 					"nil": SelfSlot("nil", SelfObject(annotation="nil", alt_string=True)),
 					"byteVector": SelfSlot("byteVector", SelfByteVector("")),
 					"string": SelfSlot("string", SelfString("", add_traits=False)),
-					"mutableString": SelfSlot("mutableString", SelfString("", add_traits=False)),
-					"container": SelfSlot("container", SelfContainer()),
-					"textInput": SelfSlot("textInput", SelfTextInput()),
-					"button": SelfSlot("button", SelfButton()),
-					"label": SelfSlot("label", SelfLabel()),
-					"canvas": SelfSlot("canvas", SelfCanvas(None)),
-					"scrollableContainer": SelfSlot("scrollableContainer", SelfScrollableContainer())},
+					"mutableString": SelfSlot("mutableString", SelfString("", add_traits=False))},
 				annotation="globals", alt_string=True)),
 			}
 		super().__init__(slots, parent_slots=parent_slots)
