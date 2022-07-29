@@ -64,6 +64,14 @@ python-versions = "*"
 altgraph = ">=0.15"
 
 [[package]]
+name = "nuitka"
+version = "0.9.6"
+description = "Python compiler with full language support and CPython compatibility"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "packaging"
 version = "21.3"
 description = "Core utilities for Python packages"
@@ -191,7 +199,7 @@ python-versions = ">=3.7"
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8,<3.11"
-content-hash = "5436545932b96852ff9218f5c412dd6b1ba97021fef264cea4e61038b3df5881"
+content-hash = "0f687b3fc854a63761b138cbaef9b383492bd2b331f6d5d8dbe209fae10f0e02"
 
 [metadata.files]
 altgraph = []
@@ -201,6 +209,7 @@ colorama = []
 future = []
 iniconfig = []
 macholib = []
+nuitka = []
 packaging = []
 pefile = []
 pluggy = []

@@ -1,2 +1,3 @@
 #!/bin/env sh
-poetry run pyinstaller --clean -F src/REPL.py
+poetry run python -m nuitka --follow-imports src/REPL.py -o repl
+rm -r REPL.build

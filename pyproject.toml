@@ -8,7 +8,7 @@ authors = ["Your Name <you@example.com>"]
 python = ">=3.8,<3.11"
 ply = "^3.11"
 pytest = "^7.1.2"
-pyinstaller = "^5.2"
+nuitka = "^0.9.6"
 
 [tool.poetry.dev-dependencies]
 
